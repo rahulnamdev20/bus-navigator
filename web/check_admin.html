@@ -1,0 +1,73 @@
+
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+        <title>NotePal</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets1/css/main1.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300">
+    <noscript><link rel="stylesheet" href="assets1/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-loading">
+
+    <div id="tablewrapper">
+<table id="myTable" style="display: none;">
+           
+</table>
+</div>
+
+
+  <div class="top-bar">
+    <span class="io-bus-tracker">NotePal</span>
+    <span id="display-time" class="display-time">
+   </span>
+  </div>
+
+  <div id="cards" class="cards"></div>
+  <div id="map" class="map"></div>
+  
+    <script defer src="js/index.js"></script>
+ 
+
+      <div id="wrapper">
+
+        <!-- Main -->
+          <section id="main">
+            <header>
+              <h1>Welcome </h1>
+              
+              <br>
+              <h2 class="x" >Login</p>
+              
+              <form action="admin.jsp">
+              <h3>*Username or Email Address</h3>
+                            <input type="text" name="email" required style="max-width: 15em;"></span>
+              <br>
+              <h4 style="text-transform: none">*Password</h4>
+              <input type="password" name="pass" required  style="max-width: 15em;"></span>
+              <br>
+              <input type="submit" value="Login" class="log">
+              <br><br>
+              </form>
+            </header>
+            
+          </section>
+
+        
+      </div>
+      
+
+      <script>
+        if ('addEventListener' in window) {
+          window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+          document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+      </script>
+
+  </body>
+</html>

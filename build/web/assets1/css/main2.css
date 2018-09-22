@@ -1,0 +1,16 @@
+#main
+{
+	text-align: left;
+	overflow-y: scroll;
+	height: 100%;
+	position: absolute;
+	top:1em;
+}
+#map
+{
+	height: 150%;
+}
+input[type="text"]
+{
+	margin-left: 0em;
+}
