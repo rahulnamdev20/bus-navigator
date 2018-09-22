@@ -21,14 +21,14 @@ application that gives necessary information about all the buses of Medicaps. Th
 overcomes the problems faced by people in searching there buses. Brought up by Google, the
 application uses Google app engine and Java programming language and its frameworks.
 
-# Admin
+## Admin
 ![known](https://github.com/priyanshugandhi/Bus-Navigator/blob/master/uploads/admin-view.png)
 
 
-# Dashboard
+## Dashboard
 ![known](https://github.com/priyanshugandhi/Bus-Navigator/blob/master/uploads/dashboard.png)
 
 
-# Route
+## Route
 ![known](https://github.com/priyanshugandhi/Bus-Navigator/blob/master/uploads/route.png)
 
